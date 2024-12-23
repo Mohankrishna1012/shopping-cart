@@ -1,0 +1,38 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212; // Dark theme background
+  color: #e0e0e0; // Light text for readability
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 10px 0;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffa41c;
+  color: #000;
+}
+
+input[type='number'] {
+  padding: 8px;
+  width: 60px;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.container {
+  padding: 20px;
+}

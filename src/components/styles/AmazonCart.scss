@@ -1,0 +1,12 @@
+.amazon-cart {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  
+    h2 {
+      text-align: center;
+      color: #ffa41c;
+    }
+  }
+  
